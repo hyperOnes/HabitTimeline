@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9EED7BA42F1E791C0097149B /* Animated_Floating_Astronaut_in_Space_Suit_Loop 2.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 9EED7BA32F1E791C0097149B /* Animated_Floating_Astronaut_in_Space_Suit_Loop 2.usdz */; };
+		A1000001001A0001 /* UniverseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001001B0001 /* UniverseApp.swift */; };
+		A1000001001A0002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001001B0002 /* ContentView.swift */; };
+		A1000001001A0003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1000001001B0003 /* Assets.xcassets */; };
+		A1000001001A0004 /* AccessibilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001001B0004 /* AccessibilityManager.swift */; };
+		A1000001001A0005 /* WindowLayoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001001B0005 /* WindowLayoutManager.swift */; };
+		A1000001001A0006 /* CraftWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001001B0006 /* CraftWindow.swift */; };
+		A1000001001A0009 /* Little_Astronaut_-_Animation_Character.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A1000001001B000B /* Little_Astronaut_-_Animation_Character.usdz */; };
+		A1000001001A000B /* AudioCaptureManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001001B000D /* AudioCaptureManager.swift */; };
+		A1000001001A000E /* MenuBarWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001001B0010 /* MenuBarWidget.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9EED7BA32F1E791C0097149B /* Animated_Floating_Astronaut_in_Space_Suit_Loop 2.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Animated_Floating_Astronaut_in_Space_Suit_Loop 2.usdz"; sourceTree = "<group>"; };
+		A1000001001B0001 /* UniverseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniverseApp.swift; sourceTree = "<group>"; };
+		A1000001001B0002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A1000001001B0003 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1000001001B0004 /* AccessibilityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityManager.swift; sourceTree = "<group>"; };
+		A1000001001B0005 /* WindowLayoutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowLayoutManager.swift; sourceTree = "<group>"; };
+		A1000001001B0006 /* CraftWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CraftWindow.swift; sourceTree = "<group>"; };
+		A1000001001B0009 /* UNIVERSE.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UNIVERSE.entitlements; sourceTree = "<group>"; };
+		A1000001001B000A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1000001001B000B /* Little_Astronaut_-_Animation_Character.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "Little_Astronaut_-_Animation_Character.usdz"; sourceTree = "<group>"; };
+		A1000001001B000D /* AudioCaptureManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioCaptureManager.swift; sourceTree = "<group>"; };
+		A1000001001B0010 /* MenuBarWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarWidget.swift; sourceTree = "<group>"; };
+		A1000001001C0001 /* UNIVERSE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UNIVERSE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1000001001D0001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9EED7B302F1E77EC0097149B /* fTA__cSv-xMW9pjNwkeLg */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "fTA__cSv-xMW9pjNwkeLg";
+			sourceTree = "<group>";
+		};
+		9EED7B422F1E77EC0097149B /* chunks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = chunks;
+			sourceTree = "<group>";
+		};
+		9EED7B462F1E77EC0097149B /* fTA__cSv-xMW9pjNwkeLg */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "fTA__cSv-xMW9pjNwkeLg";
+			sourceTree = "<group>";
+		};
+		9EED7B472F1E77EC0097149B /* static */ = {
+			isa = PBXGroup;
+			children = (
+				9EED7B422F1E77EC0097149B /* chunks */,
+				9EED7B462F1E77EC0097149B /* fTA__cSv-xMW9pjNwkeLg */,
+			);
+			path = static;
+			sourceTree = "<group>";
+		};
+		9EED7B482F1E77EC0097149B /* _next */ = {
+			isa = PBXGroup;
+			children = (
+				9EED7B302F1E77EC0097149B /* fTA__cSv-xMW9pjNwkeLg */,
+				9EED7B472F1E77EC0097149B /* static */,
+			);
+			sourceTree = "<group>";
+		};
+		A1000001001E0001 = {
+			isa = PBXGroup;
+			children = (
+				A1000001001E0002 /* UNIVERSE */,
+				A1000001001E0003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1000001001E0002 /* UNIVERSE */ = {
+			isa = PBXGroup;
+			children = (
+				A1000001001B0001 /* UniverseApp.swift */,
+				A1000001001B0002 /* ContentView.swift */,
+				A1000001001B0010 /* MenuBarWidget.swift */,
+				A1000001001E0004 /* FrameWindow */,
+				A1000001001E0005 /* Managers */,
+				A1000001001E0006 /* Models */,
+				A1000001001E0007 /* Views */,
+				A1000001001B0003 /* Assets.xcassets */,
+				A1000001001B000B /* Little_Astronaut_-_Animation_Character.usdz */,
+				A1000001001B0009 /* UNIVERSE.entitlements */,
+				A1000001001B000A /* Info.plist */,
+				9EED7BA32F1E791C0097149B /* Animated_Floating_Astronaut_in_Space_Suit_Loop 2.usdz */,
+			);
+			path = UNIVERSE;
+			sourceTree = "<group>";
+		};
+		A1000001001E0003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1000001001C0001 /* UNIVERSE.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1000001001E0004 /* FrameWindow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FrameWindow;
+			sourceTree = "<group>";
+		};
+		A1000001001E0005 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				A1000001001B000D /* AudioCaptureManager.swift */,
+				A1000001001B0004 /* AccessibilityManager.swift */,
+				A1000001001B0005 /* WindowLayoutManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		A1000001001E0006 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A1000001001B0006 /* CraftWindow.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A1000001001E0007 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1000001001F0001 /* UNIVERSE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10000010020003 /* Build configuration list for PBXNativeTarget "UNIVERSE" */;
+			buildPhases = (
+				A1000001001D0002 /* Sources */,
+				A1000001001D0001 /* Frameworks */,
+				A1000001001D0003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UNIVERSE;
+			productName = UNIVERSE;
+			productReference = A1000001001C0001 /* UNIVERSE.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A10000010021001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					A1000001001F0001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = A10000010020001 /* Build configuration list for PBXProject "UNIVERSE" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1000001001E0001;
+			productRefGroup = A1000001001E0003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1000001001F0001 /* UNIVERSE */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1000001001D0003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000001001A0003 /* Assets.xcassets in Resources */,
+				9EED7BA42F1E791C0097149B /* Animated_Floating_Astronaut_in_Space_Suit_Loop 2.usdz in Resources */,
+				A1000001001A0009 /* Little_Astronaut_-_Animation_Character.usdz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+
+/* Begin PBXSourcesBuildPhase section */
+		A1000001001D0002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000001001A0001 /* UniverseApp.swift in Sources */,
+				A1000001001A000B /* AudioCaptureManager.swift in Sources */,
+				A1000001001A0002 /* ContentView.swift in Sources */,
+				A1000001001A000E /* MenuBarWidget.swift in Sources */,
+				A1000001001A0004 /* AccessibilityManager.swift in Sources */,
+				A1000001001A0005 /* WindowLayoutManager.swift in Sources */,
+				A1000001001A0006 /* CraftWindow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A10000010022001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A10000010022002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A10000010023001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = UNIVERSE/UNIVERSE.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UNIVERSE/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Habit Menubar Timeline";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.universe.app;
+				PRODUCT_NAME = "Habit Menubar Timeline";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A10000010023002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = UNIVERSE/UNIVERSE.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UNIVERSE/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Habit Menubar Timeline";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.universe.app;
+				PRODUCT_NAME = "Habit Menubar Timeline";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A10000010020001 /* Build configuration list for PBXProject "UNIVERSE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000010022001 /* Debug */,
+				A10000010022002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10000010020003 /* Build configuration list for PBXNativeTarget "UNIVERSE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000010023001 /* Debug */,
+				A10000010023002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A10000010021001 /* Project object */;
+}
