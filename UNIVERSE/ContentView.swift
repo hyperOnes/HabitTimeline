@@ -1,7 +1,6 @@
 import SwiftUI
 import AppKit
 import SceneKit
-import AVFoundation
 import CoreLocation
 
 // MARK: - Theme Constants
@@ -1295,7 +1294,6 @@ struct UsageStrip: View {
     @ObservedObject private var usageTracker = UsageTracker.shared
     @ObservedObject private var habitManager = DailyHabitManager.shared
     @ObservedObject private var historyStore = HabitHistoryStore.shared
-    @ObservedObject private var audioManager = AudioCaptureManager.shared
     @ObservedObject private var widgetState = MenuBarWidgetState.shared
 
     var body: some View {

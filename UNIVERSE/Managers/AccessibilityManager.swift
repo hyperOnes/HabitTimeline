@@ -49,17 +49,10 @@ class AccessibilityManager: ObservableObject {
     }
 
     func requestPermissions() {
-        let options = [kAXTrustedCheckOptionPrompt.takeUnretainedValue(): true] as CFDictionary
-        hasPermission = AXIsProcessTrustedWithOptions(options)
+        hasPermission = checkPermissions()
 
-        if !hasPermission {
-            // Start polling for permission grant
-            Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { [weak self] timer in
-                if self?.checkPermissions() == true {
-                    timer.invalidate()
-                    self?.refreshCraftWindows()
-                }
-            }
+        if hasPermission {
+            refreshCraftWindows()
         }
     }
 

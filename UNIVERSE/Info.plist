@@ -26,10 +26,8 @@
     <string>Copyright © 2024. All rights reserved.</string>
     <key>NSMainStoryboardFile</key>
     <string></string>
-    <key>NSPrincipalClass</key>
-    <string>NSApplication</string>
-	<key>NSMicrophoneUsageDescription</key>
-	<string>Habit Menubar Timeline needs access to the microphone to visualize music beats on the activity meter.</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>Habit Menubar Timeline uses your current location to load a local weather forecast for the weather strip.</string>
     <key>NSAppTransportSecurity</key>

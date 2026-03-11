@@ -30,7 +30,6 @@ This repository still contains some legacy Accessibility and Craft/app-window in
 1. Open `UNIVERSE.xcodeproj` in Xcode.
 2. Build and run the `UNIVERSE` scheme.
 3. Allow location access if you want live weather in the widget.
-4. Allow Accessibility access only if you want shortcut-based quick-launch actions or to experiment with the legacy window/app integration helpers.
 
 ## Usage
 
