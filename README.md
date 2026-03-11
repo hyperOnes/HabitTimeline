@@ -61,8 +61,6 @@ The app stores its local data under Application Support in JSON files, including
 Habit Timeline may use these macOS permissions:
 
 - Location: used to fetch a local weather forecast for the weather strip
-- Accessibility: used for simulated keyboard shortcuts and legacy app/window integration helpers
-- Microphone: declared in the app today, but the current menubar tracker flow does not prominently expose a microphone-driven feature
 
 ## Architecture
 
